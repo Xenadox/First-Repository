@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Courier Rate Card Uploader</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Upload Courier Rate Card</h1>
+    <input type="file" id="csvFileInput" accept=".csv">
+    <table id="rateCardTable">
+        <thead>
+            <tr>
+                <th>Lane</th>
+                <th>Base Rate</th>
+                <th>OW1</th>
+                <th>OW1 Limit</th>
+                <th>OW2</th>
+                <th>OW2 Limit</th>
+                <th>OW3</th>
+                <th>OW3 Limit</th>
+                <th>OW4</th>
+                <th>OW4 Limit</th>
+                <th>OW5</th>
+                <th>OW5 Limit</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- CSV data will be inserted here -->
+        </tbody>
+    </table>
+    <p id="errorMessage" class="error-message"></p>
+
+    <script src="script.js"></script>
+</body>
+</html>
